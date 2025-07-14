@@ -3,46 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me | Samuel Chege Waweru</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Samuel Chege Waweru | Cybersecurity Portfolio</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4d3dce7903.js" crossorigin="anonymous"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-900">
 
-  <header class="bg-black text-white p-4">
-    <h1 class="text-2xl font-bold">Samuel Chege Waweru</h1>
-    <p class="text-sm">Cybersecurity Learner | Ethical Hacker in Training | Network Architect</p>
-  </header>
+<body class="bg-gray-900 text-white font-sans">
+<!-- Navbar -->
+  <nav class="bg-gray-950 shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl font-bold">Samuel Chege Waweru</h1>
+      <p class="text-sm text-gray-300">Cybersecurity Learner | Ethical Hacker in Training | Network Security Enthusiast</p>
+    </div>
+        <div class="space-x-6">
+          <a href="about.html" class="text-gray-300 hover:text-white">About</a>
+          <a href="projects.html" class="text-gray-300 hover:text-white">Projects</a>
+          <a href="blog.html" class="text-white font-semibold">Blog</a>
+          <a href="contact.html" class="text-gray-300 hover:text-white">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-  <main class="p-6 max-w-3xl mx-auto">
-    <h2 class="text-xl font-semibold mb-4">About Me</h2>
+  <!-- Main Content -->
+  <main class="p-8 max-w-4xl mx-auto text-center">
 
-    <p class="mb-4">
-      I’m Samuel Chege Waweru, a self-taught cybersecurity enthusiast based in Kenya.
-      My journey started with curiosity — wanting to understand how systems are broken, and how to secure them.
-      That curiosity has grown into a disciplined mission to help secure digital systems across Africa and beyond.
-    </p>
+  <h2 class="text-3xl font-extrabold mb-6">The Journey So Far And Where I'm Headed</h2>
 
-    <p class="mb-4">
-      I’m currently building hands-on skills through:
-      <ul class="list-disc list-inside mb-4">
-        <li>CEH (Certified Ethical Hacker) training</li>
-        <li>Simulating enterprise networks using Cisco Packet Tracer</li>
-        <li>Using tools like SpiderFoot, Shodan, Recon-ng, h8mail</li>
-        <li>Practicing vulnerability scanning and network security design</li>
-        <li>Learning Python to automate OSINT and recon tasks</li>
-      </ul>
-    </p>
+  <p class="mb-6 text-lg text-gray-300">
+    My name is <span class="font-bold text-white">Samuel Chege Waweru</span>. I'm a self-taught cybersecurity learner from Kenya with a mission: to protect digital systems, elevate cybersecurity awareness, and become a trusted architect of secure networks in Africa and beyond.
+  </p>
 
-    <p class="mb-4">
-      I believe in ethical responsibility, deep learning, and building for long-term impact — especially in underserved digital communities.
-      “In a world full of threats, be the firewall.” This isn’t just a career — it’s my calling.
-    </p>
+  <p class="mb-6 text-gray-300">
+    I didn’t start out in tech. I wasn’t handed a roadmap. Everything I’ve learned so far from configuring VLANs to analyzing breach data has come from pure curiosity, structured self-learning, and the determination to build something bigger than myself. I don’t fake expertise. I study hard, break systems ethically, and fix them with purpose.
+  </p>
 
-    <a href="index.html" class="text-blue-600 underline">← Back to Home</a>
-  </main>
+  <p class="mb-6 text-gray-300">
+    My journey into cybersecurity began with a simple question: <em>“How do hackers think?”</em> That single question turned into late nights with Wireshark, CEH labs, Packet Tracer topologies, and deep dives into tools like SpiderFoot, Recon-ng, and Shodan. I’ve documented this journey openly not just for myself, but for other Africans looking to enter this field with limited resources but unlimited hunger.
+  </p>
 
-  <footer class="bg-black text-white p-4 mt-10 text-center">
-    <p>© 2025 Samuel Chege Waweru</p>
+  <div class="bg-gray-800 p-6 rounded-lg shadow-md mb-8 text-left">
+    <h3 class="text-xl font-bold mb-3 text-blue-400">What I'm Learning & Practicing:</h3>
+    <ul class="list-disc list-inside text-gray-300 space-y-2">
+      <li>Simulating enterprise networks (VLANs, OSPF, NAT, ACLs, DHCP, SSH)</li>
+      <li>Ethical hacking through CEH-style labs & OSINT tools like Shodan, h8mail, ExifTool</li>
+      <li>Automating recon with Python & Bash scripting</li>
+      <li>Applying network defense and compliance principles (MITRE ATT&CK, PCI DSS, Kenya Data Protection Act)</li>
+    </ul>
+  </div>
+
+  <p class="mb-6 text-gray-300">
+    I believe cybersecurity isn’t just about tools and firewalls it’s about protecting people. Whether it’s a vulnerable child whose data is exposed, or a small business trying to survive a ransomware attack, I want to be part of the solution. I don’t just want a job in cybersecurity. I want a purpose in it.
+  </p>
+
+  <p class="mb-6 text-gray-300">
+    I’m not an expert, not yet. But I show up every day. I build, I break, I fix, I document. And with every lab, every GitHub commit, every mistake and breakthrough, I’m getting closer to being the kind of cybersecurity professional Kenya and the world needs.
+  </p>
+
+  <div class="bg-gray-800 p-6 rounded-lg shadow-md mb-10 text-left">
+    <h3 class="text-xl font-bold mb-3 text-blue-400">My Philosophy</h3>
+    <ul class="list-disc list-inside text-gray-300 space-y-2">
+      <li><strong>Learn deeply</strong>Not just theory, but how systems behave in real life</li>
+      <li><strong>Think ethically</strong>Security is a responsibility, not just a job</li>
+      <li><strong>Build for impact</strong>I want to secure Kenya’s digital future, not just collect certs</li>
+    </ul>
+  </div>
+
+  <p class="mb-10 text-lg text-gray-300">
+    If you’re a mentor, recruiter, collaborator or someone walking the same road feel free to reach out. I don’t have all the answers. But I’ll always show up, ask the right questions, and build toward the right ones.
+  </p>
+
+  <a href="index.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded shadow">
+    ← Back to Home
+  </a>
+
+</main>
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 p-4 text-center">
+    <p>© 2025 Samuel Chege Waweru — Staying curious. Staying secure.</p>
   </footer>
+
 </body>
+
 </html>
